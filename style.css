@@ -1,0 +1,18 @@
+/* style.css */
+.container {
+    width: 960px;
+    height: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-square {
+    box-sizing: border-box; /* Prevents borders from increasing size */
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.grid-square:hover {
+    background-color: #666;
+}
